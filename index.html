@@ -14,66 +14,97 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <title>PETZOO</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <header>
-      <div class="row">
+      <!--<div class="row cb1">
         <div class="col col-md-6">
-          <strong><h6>ATENCIÓN DE LUNES A DOMINGO 10:00 AM A 7:00 PM</h6></strong>
+          <h6 style="margin: 0px">
+            <strong>ATENCIÓN DE LUNES A DOMINGO 10:00 AM A 7:00 PM</strong>
+          </h6>
         </div>
         <div class="col col-md-6">
           <ul>
-          <strong><a href="#" style="border-right: 1px solid rgb(255, 255, 255);">PETZOO</a></strong>
-          <a href="#" style="border-right: 1px solid rgb(255, 255, 255);">Spa</a>
-          <a href="#" style="border-right: 1px solid rgb(255, 255, 255);">Tienda</a>
-          <a href="#" style="border-right: 1px solid rgb(255, 255, 255);">Contacto</a>
-          <a href=""><img src="assets/img/face.png" alt="Facebbok" style="width: 15px; height: 15px;"></a>
-          <a href=""><img src="assets/img/insta.png" alt="Instagram" style="width: 13px; height: 13px;"></a>
-          <a href=""><img src="assets/img/tel.png" alt="Telefono" style="width: 12px; height: 12px; margin-left: 5px;"></a>
-        </ul>
+            <a href="#" class="linea" style="font-weight: bold"
+              ><strong>PETZOO</strong></a
+            >
+            <a href="#" class="linea">Spa</a>
+            <a href="#" class="linea">Tienda</a>
+            <a href="#">Contacto</a>
+            <a href="" class="red"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="red"
+              ><i class="fab fa-instagram" style="font-weight: bold"></i
+            ></a>
+            <a href="" class="red"
+              ><i class="fas fa-phone" style="transform: rotate(90deg)"></i
+            ></a>
+          </ul>
+        </div>
+      </div>-->
+      <div class="row cb2">
+        <div
+          class="col col-md-4 d-flex align-items-center justify-content-center"
+        >
+          <a href="" style="display: flex; align-items: center">
+            <i
+              class="fas fa-bars"
+              style="font-size: 25px; margin-right: 5px"
+            ></i>
+            <span>Menu</span>
+          </a>
+        </div>
+        <div class="col col-md-4">
+          <a href="">
+            <i class="fas fa-dog" style="font-size: 59px;"></i>
+            <h1 style="display: inline-block"><strong>PETZOO</strong></h1>
+          </a>
+        </div>
+        <div class="col col-md-4">
+          <a href=""
+            ><i class="fas fa-user linea2" style="font-size: 20px"></i
+          ></a>
+          <a href=""
+            ><i
+              class="fas fa-search linea2"
+              style="font-size: 20px; padding-left: 9px"
+            ></i
+          ></a>
+          <a href=""
+            ><i
+              class="fas fa-shopping-basket"
+              style="font-size: 20px; padding-left: 9px"
+            ></i
+          ></a>
+        </div>
       </div>
-      <div class="cb2"></div>
     </header>
-
-    <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Servicios</a>
-      <a href="#">Galería</a>
-      <a href="#">Contacto</a>
-    </nav>
-
-    <section id="login">
-      <h2>Iniciar Sesión</h2>
-      <form>
-        <!-- Formulario de inicio de sesión -->
-      </form>
-    </section>
-
-    <section id="appointment">
-      <h2>Agendar Cita</h2>
-      <form>
-        <!-- Formulario de agendar cita -->
-      </form>
-    </section>
-
-    <section id="about">
-      <h2>Quiénes Somos</h2>
-      <p>
-        Somos una peluquería canina dedicada al cuidado y bienestar de tus
-        mascotas. Nuestro equipo de profesionales está comprometido con ofrecer
-        un servicio de alta calidad, garantizando la comodidad y felicidad de
-        cada peludo cliente.
-      </p>
-    </section>
-
-    <section id="gallery">
-      <h2>Galería</h2>
-      <img src="dog1.jpg" alt="Perro 1" />
-      <img src="dog2.jpg" alt="Perro 2" />
-      <img src="dog3.jpg" alt="Perro 3" />
-    </section>
+    <main>
+      <div class="cuerpo_1">
+        <figure class="pet">
+          <video autoplay muted loop>
+            <source src="assets/video/pet.mp4" type="video/mp4" />
+          </video>
+          <div class="spa">
+            <h1 style="font-size: 30px;"><strong>SPA Y CORTE</strong></h1>
+            <p style="font-size: 25px">
+              Es muy importante el cuidado y salud de tu mascota. Encuentra en
+              <strong>PETZOO</strong>, el mejor<br>servicio de estética y aseo para
+              tu mimado.
+            </p>
+          </div>
+        </figure>
+      </div>
+      <div class="cuerpo_2">
+        <h2>¡Agenda tu cita con anticipación!</h2>
+        <a href="#" class="button agendar">AGENDAR CITA</a>
+      </div>
+    </main>
 
     <footer>
       <p>&copy; 2024 Peluquería Canina</p>
