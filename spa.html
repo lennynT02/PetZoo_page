@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,12 +19,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <title>PETZOO</title>
-    <link rel="stylesheet" href="assets/css/index.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/spa.css" />
   </head>
   <body>
     <header>
@@ -39,7 +34,7 @@
             <a href="#" class="linea" style="font-weight: bold"
               ><strong>PETZOO</strong></a
             >
-            <a href="spa.html" class="linea">Spa</a>
+            <a href="#" class="linea">Spa</a>
             <a href="#" class="linea">Tienda</a>
             <a href="#">Contacto</a>
             <a href="" class="red"><i class="fab fa-facebook-f"></i></a>
@@ -65,8 +60,8 @@
           </a>
         </div>
         <div class="col col-md-4">
-          <a href="">
-            <i class="fas fa-dog" style="font-size: 59px"></i>
+          <a href="index.html">
+            <i class="fas fa-dog" style="font-size: 59px;"></i>
             <h1 style="display: inline-block"><strong>PETZOO</strong></h1>
           </a>
         </div>
@@ -90,40 +85,29 @@
       </div>
     </header>
     <main>
-      <div class="row cuerpo_1">
-        <div class="col col-md-7">
-          <img src="assets/img/pet.png" alt="perro en peluqueria" />
-        </div>
-        <div class="col col-md-3">
-          <i class="fas fa-cut" style="rotate: -30deg; font-size: 50px"></i>
-          <br />
-          <h3>PetZoo Spa</h3>
-          <br><br>
-          <p>
-            <Strong>¿Deseas que tu mascota deslumbre con su apariencia?</Strong>Reserva una cita
-            y nuestros expertos se encargarán de realzar la belleza natural de
-            tu querido compañero.
-          </p>
-          <span>
-            <a href="https://w.app/Petzoo" class="btn btn-success">Reservar</a>
-            <a href="spa.html" class="btn btn-light">Informacion</a>
-          </span>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-      <div class="row cuerpo_2">
+      <div class="cuerpo_1">
         <figure class="pet">
-            <img src="assets/img/pet1.png" alt="perro">
-            <div class="spa">
-              <h1 style="font-size: 30px;"><strong>SPA Y CORTE</strong></h1>
-              <p style="font-size: 25px">
-                Es muy importante el cuidado y salud de tu mascota. Encuentra en
-                <strong>PETZOO</strong>, el mejor<br>servicio de estética y aseo para
-                tu mimado.
-              </p>
-            </div>
-          </figure>
+          <video autoplay muted loop>
+            <source src="assets/video/pet.mp4" type="video/mp4" />
+          </video>
+          <div class="spa">
+            <h1 style="font-size: 30px;"><strong>SPA Y CORTE</strong></h1>
+            <p style="font-size: 25px">
+              Es muy importante el cuidado y salud de tu mascota. Encuentra en
+              <strong>PETZOO</strong>, el mejor<br>servicio de estética y aseo para
+              tu mimado.
+            </p>
+          </div>
+        </figure>
+      </div>
+      <div class="cuerpo_2">
+        <h2>¡Agenda tu cita con anticipación!</h2>
+        <a href="#" class="button agendar">AGENDAR CITA</a>
       </div>
     </main>
+
+    <footer>
+      <p>&copy; 2024 Peluquería Canina</p>
+    </footer>
   </body>
 </html>
